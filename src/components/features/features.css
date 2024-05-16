@@ -1,0 +1,63 @@
+.header {
+    font-weight: 400;
+    color: white
+}
+
+p {
+    font-size: 0.7rem;
+}
+
+
+.p-subtext {
+    font-size: 0.6rem;
+    color: var(--color-subtext);
+}
+
+
+.big_bar {
+    background: var(--gradient-bar);
+    height: 6rem;
+}
+
+.bar-btn {
+    font-size: 0.7rem;
+    color: white;
+    height: 2rem;
+}
+
+.text-gradient {
+    background-image: var(--gradient-text);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+    @media screen and (max-width: 600px) {
+        .container {
+         font-size: 0.5rem;
+        }
+      }
+     @media screen and (min-width: 600px) {
+        .container {
+         font-size: 0.5rem;
+        }
+      }
+     @media screen and (min-width: 768px) {
+        .container {
+         font-size: 0.6rem;
+        }
+      }
+     @media screen and (min-width: 992px) {
+        .container {
+         font-size: 0.75rem;
+        }
+      }
+     @media screen and (min-width: 1200px) {
+        .container {
+         font-size: 0.9rem;
+        }
+      }
+     @media screen and (min-width: 1400px) {
+        .container {
+         font-size: 1rem;
+        }
+      }

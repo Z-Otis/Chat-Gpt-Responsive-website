@@ -1,0 +1,54 @@
+.gradient-text {
+    color: #AE67FA ;
+    font-weight: 700;
+}
+.header-text {
+    color: var(--color-text);
+    font-weight: 400;
+    line-height: 20.32px;
+    
+}
+
+.g-img-container {
+    width: 121.79px;
+    height: 38px;
+}
+.g-img-text {
+    font-size: .6rem;
+}
+
+.grp-logos div {
+    width: 65.83px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+     font-size: 0.6rem;
+    }
+  }
+ @media screen and (min-width: 600px) {
+    .container {
+     font-size: 0.6rem;
+    }
+  }
+ @media screen and (min-width: 768px) {
+    .container {
+     font-size: 0.8rem;
+    }
+  }
+ @media screen and (min-width: 992px) {
+    .container {
+     font-size: 1rem;
+    }
+  }
+ @media screen and (min-width: 1200px) {
+    .container {
+     font-size: 1.15rem;
+    }
+  }
+ @media screen and (min-width: 1400px) {
+    .container {
+     font-size: 1.2rem;
+    }
+  }
+ 

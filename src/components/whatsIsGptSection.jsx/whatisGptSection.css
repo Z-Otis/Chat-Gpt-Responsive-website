@@ -1,0 +1,63 @@
+.whatGpt_bg {
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.bar {
+    width: 2.1rem;
+    height: 0.25rem;
+    background: var(--gradient-bar);
+}
+
+.feature-header {
+    font-size: 0.8rem;
+}
+
+.p-text {
+    color: var(--color-text);
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+     font-size: 0.5rem;
+    }
+  }
+ @media screen and (min-width: 600px) {
+    .container {
+     font-size: 0.5rem;
+    }
+  }
+ @media screen and (min-width: 768px) {
+    .container {
+     font-size: 0.6rem;
+    }
+  }
+ @media screen and (min-width: 992px) {
+    .container {
+     font-size: 0.75rem;
+    }
+  }
+ @media screen and (min-width: 1200px) {
+    .container {
+     font-size: 0.9rem;
+    }
+  }
+ @media screen and (min-width: 1400px) {
+    .container {
+     font-size: 1rem;
+    }
+  }

@@ -1,0 +1,45 @@
+.footer-bg {
+    background: var(--color-footer);
+}
+
+.btn-font {
+    font-size: 0.5rem;
+   
+}
+
+.text-gradient {
+    background-image: var(--gradient-text);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+    @media screen and (max-width: 600px) {
+        .font {
+         font-size: 0.5rem;
+        }
+      }
+     @media screen and (min-width: 600px) {
+        .font {
+         font-size: 0.5rem;
+        }
+      }
+     @media screen and (min-width: 768px) {
+        .font {
+         font-size: 0.6rem;
+        }
+      }
+     @media screen and (min-width: 992px) {
+        .font {
+         font-size: 0.75rem;
+        }
+      }
+     @media screen and (min-width: 1200px) {
+        .font {
+         font-size: 0.9rem;
+        }
+      }
+     @media screen and (min-width: 1400px) {
+        .font {
+         font-size: 1rem;
+        }
+      }

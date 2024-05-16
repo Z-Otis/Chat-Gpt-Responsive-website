@@ -1,0 +1,9 @@
+.card-body {
+    background: var(--color-blog);
+}
+
+.text-gradient {
+background-image: var(--gradient-text);
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}

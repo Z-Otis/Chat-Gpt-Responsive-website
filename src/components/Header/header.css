@@ -1,0 +1,38 @@
+.logo {
+   max-width: 62.56px;
+   max-height: 16.02px;
+}
+.btns{
+     background: #FF4820;
+}
+
+@media screen and (max-width: 600px) {
+   .nav-container {
+    font-size: 0.5rem;
+   }
+ }
+@media screen and (min-width: 600px) {
+   .nav-container {
+    font-size: 0.5rem;
+   }
+ }
+@media screen and (min-width: 768px) {
+   .nav-container {
+    font-size: 0.8rem;
+   }
+ }
+@media screen and (min-width: 992px) {
+   .nav-container {
+    font-size: 1rem;
+   }
+ }
+@media screen and (min-width: 1200px) {
+   .nav-container {
+    font-size: 1.15rem;
+   }
+ }
+@media screen and (min-width: 1400px) {
+   .nav-container {
+    font-size: 1.2rem;
+   }
+ }
